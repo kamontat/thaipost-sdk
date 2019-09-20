@@ -1,0 +1,23 @@
+version: 3
+commits:
+  - type: feat
+    value: Introducing new features.
+  - type: impr
+    value: Improving user experience / usability / reliablity.
+  - type: perf
+    value: A code change that improves performance.
+  - type: fix
+    value: Fixing a bug.
+  - type: refac
+    value: A code change that neither fixes a bug nor adds a feature.
+  - type: chore
+    value: Other changes that don't modify src or test files.
+scopes:
+  - type: core
+    value: Core program of this project
+  - type: api
+    value: Application interface layer
+  - type: doc
+    value: Documentation
+  - type: test
+    value: Unit or integration test
