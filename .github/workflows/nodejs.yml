@@ -19,9 +19,9 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: Install dependencies
       run: |
-        npm install
+        yarn install
     - name: Compile typescript
       run: |
-        npm compile
+        yarn compile
       env:
         CI: true
