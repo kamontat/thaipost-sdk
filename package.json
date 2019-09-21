@@ -1,6 +1,6 @@
 {
   "name": "thaipost",
-  "version": "0.1.0-beta.1",
+  "version": "0.1.0",
   "description": "thai post sdk",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -10,9 +10,15 @@
   "private": false,
   "scripts": {
     "compile": "tsc --build --pretty",
-    "run": "node dist/index.js"
+    "start": "node dist/index.js"
   },
   "dependencies": {
+    "got": "9.6.0",
     "typescript": "3.6.3"
+  },
+  "devDependencies": {
+    "@types/debug": "4.1.5",
+    "@types/got": "9.6.7",
+    "debug": "4.1.1"
   }
 }
